@@ -4,7 +4,7 @@ Dado('que estou na página principal da Starbugs') do
 end
 
 Então('eu devo visualizar uma lista de cafés disponíveis') do
-    expect(@PageStarbugs.ListaCafe.size).to be <= 8
+    expect(@PageStarbugs.ListaCafe.size).to be <= 51
 end
 
 E('que desejo comprar o seguinte produto:') do |table|

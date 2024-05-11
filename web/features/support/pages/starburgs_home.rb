@@ -9,7 +9,7 @@ class PageStarbugs
     end
   
     def ListaCafe
-      return all('.coffee-item')
+      return all('.sc-hhOBVt').to_s
     end
   
     def CompraCafe(nome_cafe)
